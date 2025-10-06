@@ -21,7 +21,7 @@
 
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('oceanfloorcounselling/font/Lora-Regular.ttf') format('truetype'); /* Broadest fallback */
+  src: url('font/Lora-Regular.ttf') format('truetype'); /* Broadest fallback */
   font-weight: normal;
   font-style: normal;
   font-display: swap; /* Improves perceived loading speed :cite[8] */
