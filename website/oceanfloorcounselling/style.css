@@ -19,14 +19,20 @@
     --transition: all 0.3s ease;
 }
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('font/Lora-Regular.ttf') format('truetype'); /* Broadest fallback */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Improves perceived loading speed :cite[8] */
+}
+
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    line-height: 1.7;
+    font-family: 'MyCustomFont', sans-serif;    
     color: var(--text-dark);
     background-color: var(--warm-white);
     font-weight: 400;
 }
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
