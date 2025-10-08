@@ -1,9 +1,11 @@
 /* gruvbox-test.css - Adapted from Obsidian Gruvbox theme */
 /* Gruvbox color palette - Dark mode */
 :root {
-  --bg: #282828;
-  --bg0: #282828;
-  --bg1: #3c3836;
+  /*--bg: #282828;*/
+  --bg: #0c2416;
+  /*--bg0: #282828;*/
+  --bg0: #1D2327;
+  --bg1: #1D2327; /*#3c3836;*/
   --bg2: #504945;
   --bg3: #665c54;
   --bg4: #7c6f64;
@@ -41,7 +43,7 @@
 
 .title-section {
     font-family: 'TitleFont', serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     /*
     background-color: #f9f9f9;
     padding: 20px;
