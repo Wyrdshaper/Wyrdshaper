@@ -23,9 +23,35 @@
   --gray: #928374;
 }
 
+@font-face {
+  font-family: 'MainFont';
+  src: url('../fonts/Amasis.otf') format('opentype'); /* Broadest fallback */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Improves perceived loading speed :cite[8] */
+}
+
+@font-face {
+  font-family: 'TitleFont';
+  src: url('../fonts/Souvenir.ttf') format('truetype'); /* Broadest fallback */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Improves perceived loading speed :cite[8] */
+}
+
+.title-section {
+    font-family: 'TitleFont', serif;
+    font-size: 1.2em;
+    /*
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    */
+}
+
 /* Base styles */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'MainFont', sans-serif;
     line-height: 1.6;
     max-width: 800px;
     margin: 0 auto;
