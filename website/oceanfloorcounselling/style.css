@@ -7,10 +7,13 @@
 
 :root {
     --warm-brown: #8B7355;
+    --main-teal-alpha: rgba(89, 165, 179, 0.75);
+    --main-teal: #59a5b3;
+    --main-brown: #3a3a3a;
     --soft-teal: #88B0A8;
+    --deep-teal: #5A8770;
     --warm-white: #FDF6F0;
     --soft-gray: #E8E8E8;
-    --deep-teal: #5A8770;
     --text-dark: #5D4037;
     --text-light: #8D6E63;
     --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -85,7 +88,7 @@ p {
 
 /* Buttons */
 .btn-primary {
-    background: var(--soft-teal);
+    background: var(--main-brown);
     color: white;
     padding: 16px 36px;
     border-radius: 50px;
@@ -108,12 +111,12 @@ p {
 
 .btn-secondary {
     background: transparent;
-    color: var(--soft-teal);
+    color: var(--main-teal);
     padding: 16px 36px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: 500;
-    border: 2px solid var(--soft-teal);
+    border: 2px solid var(--main-teal);
     cursor: pointer;
     transition: var(--transition);
     display: inline-flex;
@@ -123,7 +126,7 @@ p {
 }
 
 .btn-secondary:hover {
-    background: var(--soft-teal);
+    background: var(--main-teal);
     color: white;
     transform: translateY(-2px);
     box-shadow: var(--shadow);
@@ -134,10 +137,11 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(253, 246, 240, 0.95);
+    /*background: rgba(253, 246, 240, 0.95);*/
+    background: var(--main-teal-alpha);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    border-bottom: 1px solid var(--soft-gray);
+    border-bottom: 1px solid var(--soft-gray);    
 }
 
 .navbar {
@@ -150,7 +154,7 @@ p {
 }
 
 .nav-brand h2 {
-    color: var(--warm-brown);
+    color: var(--soft-gray);
     margin: 0;
     font-size: 1.4rem;
     font-weight: 400;
@@ -172,7 +176,7 @@ p {
 }
 
 .nav-menu a:hover {
-    color: var(--soft-teal);
+    color: var(--soft-gray);
 }
 
 .nav-menu a::after {
@@ -182,7 +186,7 @@ p {
     height: 2px;
     bottom: -8px;
     left: 0;
-    background-color: var(--soft-teal);
+    background-color: var(--main-teal);
     transition: var(--transition);
 }
 
@@ -245,7 +249,7 @@ p {
 }
 
 .welcome-message {
-    background: linear-gradient(135deg, var(--soft-teal), var(--deep-teal));
+    background: linear-gradient(135deg, var(--main-teal), var(--deep-teal));
     padding: 3rem 2.5rem;
     border-radius: var(--border-radius);
     color: white;
@@ -301,7 +305,7 @@ p {
     padding: 2.5rem;
     border-radius: var(--border-radius);
     margin: 3rem 0;
-    border-left: 4px solid var(--soft-teal);
+    border-left: 4px solid var(--main-teal);
 }
 
 .personal-approach h3 {
@@ -333,7 +337,7 @@ p {
 
 .quality-item i {
     font-size: 2.5rem;
-    color: var(--soft-teal);
+    color: var(--main-teal);
     margin-bottom: 1.5rem;
 }
 
@@ -379,7 +383,7 @@ p {
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, var(--soft-teal), var(--deep-teal));
+    background: linear-gradient(90deg, var(--main-teal), var(--deep-teal));
 }
 
 .service-card:hover {
@@ -396,12 +400,12 @@ p {
     align-items: center;
     justify-content: center;
     margin: 0 auto 2rem;
-    border: 2px solid var(--soft-teal);
+    border: 2px solid var(--main-teal);
 }
 
 .service-icon i {
     font-size: 2rem;
-    color: var(--soft-teal);
+    color: var(--main-teal);
 }
 
 .service-card h3 {
@@ -435,7 +439,7 @@ p {
 
 .service-card li:before {
     content: "•";
-    color: var(--soft-teal);
+    color: var(--main-teal);
     font-weight: bold;
     font-size: 1.5rem;
     position: absolute;
@@ -475,7 +479,7 @@ p {
 .step-number {
     width: 60px;
     height: 60px;
-    background: var(--soft-teal);
+    background: var(--main-teal);
     color: white;
     border-radius: 50%;
     display: flex;
@@ -535,7 +539,7 @@ p {
 .contact-item i {
     width: 50px;
     height: 50px;
-    background: var(--soft-teal);
+    background: var(--main-teal);
     color: white;
     border-radius: 50%;
     display: flex;
@@ -561,7 +565,7 @@ p {
     background: white;
     padding: 2rem;
     border-radius: var(--border-radius);
-    border-left: 4px solid var(--soft-teal);
+    border-left: 4px solid var(--main-teal);
 }
 
 .office-hours h4 {
@@ -604,7 +608,7 @@ p {
 .form-group select:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--soft-teal);
+    border-color: var(--main-teal);
     box-shadow: 0 0 0 3px rgba(136, 176, 168, 0.1);
     background: white;
 }
@@ -616,7 +620,7 @@ p {
 
 /* Footer */
 .footer {
-    background: var(--text-dark);
+    background: var(--main-brown);
     color: white;
     padding: 4rem 0 2rem;
 }
@@ -654,7 +658,7 @@ p {
 }
 
 .footer-section ul li a:hover {
-    color: var(--soft-teal);
+    color: var(--main-teal);
 }
 
 .credentials {
@@ -689,7 +693,7 @@ p {
 }
 
 .social-links a:hover {
-    background: var(--soft-teal);
+    background: var(--main-teal);
     transform: translateY(-2px);
 }
 
@@ -707,7 +711,7 @@ p {
 }
 
 .professional-links a:hover {
-    color: var(--soft-teal);
+    color: var(--main-teal);
 }
 
 .footer-bottom {
