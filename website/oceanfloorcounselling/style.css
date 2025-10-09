@@ -11,7 +11,7 @@
     --main-teal: #59a5b3;
     --main-brown: #3a3a3a;
     --soft-teal: #88B0A8;
-    --deep-teal: #5A8770;
+    --deep-teal: #306a73;
     --warm-white: #FDF6F0;
     --soft-gray: #E8E8E8;
     --text-dark: #5D4037;
@@ -148,7 +148,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.25rem 2rem;
+    padding: 1rem 1rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -157,7 +157,7 @@ p {
     color: var(--soft-gray);
     margin: 0;
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 400    
 }
 
 .nav-menu {
@@ -574,7 +574,7 @@ p {
 }
 
 .contact-form {
-    background: white;
+    background: var(--main-teal);
     padding: 3rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow-soft);
