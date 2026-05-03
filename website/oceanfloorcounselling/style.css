@@ -8,8 +8,7 @@
 :root {
     --warm-brown: #8B7355;
     --main-teal-alpha: rgba(89, 165, 179, 0.75);
-    --main-teal: #ffa5b3;
-    --main-teal-backup: #59a5b3;
+    --main-teal: #59a5b3;
     --main-brown: #3a3a3a;
     --soft-teal: #88B0A8;
     --deep-teal: #306a73;
