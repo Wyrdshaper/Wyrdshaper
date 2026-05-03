@@ -248,9 +248,13 @@ p {
     align-items: center;
 }
 
+.rounded {
+    border-radius: var(--border-radius);
+}
+
 .welcome-message {
     background: linear-gradient(135deg, var(--main-teal), var(--deep-teal));
-    padding: 3rem 2.5rem;
+    padding: 1rem 1rem;
     border-radius: var(--border-radius);
     color: white;
     box-shadow: var(--shadow);
@@ -259,13 +263,13 @@ p {
 }
 
 .welcome-text i {
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     opacity: 0.8;
 }
 
 .welcome-text p {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
     color: white;
@@ -275,12 +279,12 @@ p {
 
 .welcome-text span {
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* About Section */
 .about {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: white;
 }
 
@@ -329,7 +333,7 @@ p {
 
 /* Training Section */
 .training {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: var(--warm-white);
 }
 
@@ -431,7 +435,7 @@ p {
 
 /* Services Section */
 .services {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: var(--warm-white);
 }
 
@@ -553,7 +557,7 @@ p {
 
 /* Approach Section */
 .approach {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: white;
 }
 
@@ -606,7 +610,7 @@ p {
 
 /* Contact Section */
 .contact {
-    padding: 6rem 0;
+    padding: 4rem 0;
     background: var(--warm-white);
 }
 
@@ -668,8 +672,8 @@ p {
 .office-hours {
     background: white;
     padding: 2rem;
-    border-radius: var(--border-radius);
-    border-left: 4px solid var(--main-teal);
+    border-radius: var(--border-radius);    
+    box-shadow: var(--shadow);
 }
 
 .office-hours h4 {
@@ -681,7 +685,7 @@ p {
     background: var(--main-teal);
     padding: 3rem;
     border-radius: var(--border-radius);
-    box-shadow: var(--shadow-soft);
+    box-shadow: var(--shadow);
     border: 1px solid var(--soft-gray);
 }
 
@@ -731,9 +735,9 @@ p {
 
 .footer-content {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .footer-section h3,
@@ -820,9 +824,14 @@ p {
 
 .footer-bottom {
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
     border-top: 1px solid #4a5568;
-    color: #9ca3af;
+    color: var(--main-teal);
+}
+.footer-bottom p {
+    font-size: 0.9rem;
+    margin: 0;
+    color: var(--main-teal);
 }
 
 .disclaimer {
