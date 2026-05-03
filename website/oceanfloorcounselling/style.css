@@ -286,7 +286,7 @@ p {
 
 .about-text {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
 .about-text h2 {
@@ -300,12 +300,89 @@ p {
     line-height: 1.8;
 }
 
+.about-text ul {
+    list-style: none;
+    text-align: left;
+}
+
+.about-text li {
+    padding: 0.75rem 0;
+    color: var(--text-light);
+    position: relative;
+    padding-left: 2rem;
+    border-bottom: 1px solid var(--soft-gray);
+}
+
+.about-text li:last-child {
+    border-bottom: none;
+}
+
+.about-text li:before {
+    content: "•";
+    color: var(--main-teal);
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
+/* Training Section */
+.training {
+    padding: 6rem 0;
+    background: var(--warm-white);
+}
+
+.training-text {
+    max-width: 800px;
+    margin: 0 auto;    
+}
+
+.training-text h2 {
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+.training-text p {
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+.training-text ul {
+    list-style: none;
+    text-align: left;
+}
+
+.training-text li {
+    padding: 0.75rem 0;
+    color: var(--text-light);
+    position: relative;
+    padding-left: 2rem;
+    border-bottom: 1px solid var(--soft-gray);
+}
+
+.training-text li:last-child {
+    border-bottom: none;
+}
+
+.training-text li:before {
+    content: "•";
+    color: var(--main-teal);
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
 .personal-approach {
     background: var(--warm-white);
     padding: 2.5rem;
     border-radius: var(--border-radius);
     margin: 3rem 0;
     border-left: 4px solid var(--main-teal);
+    box-shadow: var(--shadow);
 }
 
 .personal-approach h3 {
@@ -356,6 +433,33 @@ p {
 .services {
     padding: 6rem 0;
     background: var(--warm-white);
+}
+
+.services ul {
+    list-style: none;
+    text-align: left;
+}
+
+.services li {
+    padding: 0.75rem 0;
+    color: var(--text-light);
+    position: relative;
+    padding-left: 2rem;
+    border-bottom: 1px solid var(--soft-gray);
+}
+
+.services li:last-child {
+    border-bottom: none;
+}
+
+.services li:before {
+    content: "•";
+    color: var(--main-teal);
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
 }
 
 .services-grid {
